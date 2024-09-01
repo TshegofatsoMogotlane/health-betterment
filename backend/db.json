@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Maburna",
+      "email": "Maburnzel@gmail.com",
+      "phone": "xxxxxxxxxxx",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "name": "Tshego",
+      "email": "tshegofatsom177@gmail.com",
+      "phone": "xxxxxxxxxxx",
+      "password": "123456"
+    },
+    {
+      "email": "tshego177@gmail.com",
+      "password": "$2a$10$Se2x5PDlsGJwZmf6wPJnNebX4ucan0QUTSKM5YDFXlo/U80ysj9yG",
+      "userId": "1",
+      "professional": "Dr. Jane Smith",
+      "startDateTime": "2024-08-26T10:00:00",
+      "endDateTime": "2024-08-26T11:00:00",
+      "id": "W40wfo3"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "146a",
+      "userId": "1",
+      "professional": "Dr. Jane Smith",
+      "startDateTime": "2024-08-26 10:00",
+      "endDateTime": "2024-08-26 11:00"
+    },
+    {
+      "id": "wliZlCo",
+      "userId": "2",
+      "professional": "Dr. Jane Smith",
+      "startDateTime": "2024-08-26 10:00",
+      "endDateTime": "2024-08-26 11:00"
+    },
+    {
+      "id": "2xEeTtV",
+      "userId": "1",
+      "professional": "Dr. John Doe",
+      "startDateTime": "2024-08-27 09:00",
+      "endDateTime": "2024-08-27 10:00"
+    },
+    {
+      "email": "tshego177@gmail.com",
+      "password": "123456",
+      "userId": "1",
+      "professional": "Dr. Jane Smith",
+      "startDateTime": "2024-08-26T10:00:00",
+      "endDateTime": "2024-08-26T11:00:00",
+      "id": "6hyA9y-"
+    },
+    {
+      "email": "test@example.com",
+      "professional": "Dr. Jane Smith",
+      "startDateTime": "2024-08-26 10:00",
+      "endDateTime": "2024-08-26 11:00",
+      "id": "bsDyYET"
+    }
+  ],
+  "provinces": [
+    {
+      "id": "1",
+      "name": "Gauteng"
+    },
+    {
+      "id": "2",
+      "name": "Western Cape"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "1",
+      "name": "Pretoria Hospital",
+      "provinceId": "1",
+      "type": "Hospital"
+    },
+    {
+      "id": "2",
+      "name": "Johannesburg Clinic",
+      "provinceId": "1",
+      "type": "Clinic"
+    },
+    {
+      "id": "3",
+      "name": "Cape Town Medical Center",
+      "provinceId": "2",
+      "type": "Medical Center"
+    }
+  ],
+  "psychologists": [
+    {
+      "id": "1",
+      "name": "Dr. Jane Smith",
+      "hospitalId": "1",
+      "specialty": "Clinical Psychologist"
+    },
+    {
+      "id": "2",
+      "name": "Dr. John Doe",
+      "hospitalId": "1",
+      "specialty": "Counseling Psychologist"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Alice Johnson",
+      "hospitalId": "2",
+      "specialty": "Neuropsychologist"
+    },
+    {
+      "id": "4",
+      "name": "Dr. Susan Lee",
+      "hospitalId": "3",
+      "specialty": "Health Psychologist"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "3",
+      "name": "Dr. Richard Roe",
+      "hospitalId": "1",
+      "specialty": "General Practitioner"
+    },
+    {
+      "id": "4",
+      "name": "Dr. Emily Davis",
+      "hospitalId": "2",
+      "specialty": "Family Medicine"
+    },
+    {
+      "id": "5",
+      "name": "Dr. Michael Brown",
+      "hospitalId": "3",
+      "specialty": "Internal Medicine"
+    }
+  ],
+  "listings": [
+    {
+      "id": "1",
+      "img": "https://plus.unsplash.com/premium_photo-1664378616928-dc6842677183?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHN5Y2hvbG9naXN0fGVufDB8fDB8fHww",
+      "title": "See Our Psychologists",
+      "description": "Connect with experienced psychologists who can help you manage stress, anxiety, and other mental health challenges. Book an appointment to start your journey towards well-being."
+    },
+    {
+      "id": "2",
+      "img": "https://plus.unsplash.com/premium_photo-1661274078177-3975521e1101?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D",
+      "title": "See Our Doctors",
+      "description": "Get access to professional medical consultations with qualified doctors. Whether it's a routine check-up or a specific health concern, book a visit to ensure your health is in good hands."
+    }
+  ]
+}

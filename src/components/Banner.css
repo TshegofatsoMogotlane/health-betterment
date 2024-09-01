@@ -1,0 +1,80 @@
+/* Banner.css */
+
+/* Original styling */
+.banner {
+    height: 50vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Default background image */
+    background-image: url("https://media.istockphoto.com/id/1197246038/photo/white-background-with-red-hearts-valentines-day-concept.jpg?s=2048x2048&w=is&k=20&c=beBOCHslxzHoFVsfZkaljIEz4p-L2ZqnHY1W3xDrDR8=");
+    transition: background-image 1s ease-in-out;
+  }
+  
+  /* Slideshow effect */
+  @keyframes slide {
+    0% {
+      background-image: url('https://media.istockphoto.com/id/1562983761/photo/successful-smiling-doctor-working-inside-modern-clinic-office-hindu-man-in-white-medical-coat.webp?a=1&b=1&s=612x612&w=0&k=20&c=gMAmYR2PF-iIMBwBQGXnTF82QI8BhiEHUXIOgFEaYZ4=');
+    }
+    14% {
+      background-image: url('https://media.istockphoto.com/id/1682074275/photo/doctor-woman-and-tablet-for-hospital-healthcare-advice-and-support-for-results-exam-and-test.webp?a=1&b=1&s=612x612&w=0&k=20&c=Mh5EB4C4zZCUO254SmVZtECyE6lbCFRlExNeUFoeQO4=');
+    }
+    28% {
+      background-image: url('https://media.istockphoto.com/id/1555515663/photo/happy-portrait-group-and-doctors-for-healthcare-service-leadership-and-teamwork-in-hospital.webp?a=1&b=1&s=612x612&w=0&k=20&c=i5WRJ0-QJ1beqwCMf5rxJWD2qQZ_L1sRt5Hc9RFRVns=');
+    }
+    42% {
+      background-image: url('https://media.istockphoto.com/id/1903424167/photo/medical-team-meeting.webp?a=1&b=1&s=612x612&w=0&k=20&c=7QbFm_YDXunRhU7YzFzhZOuKFsjso8QP9qm36ymtYL8=');
+    }
+    57% {
+      background-image: url('https://media.istockphoto.com/id/1649071889/photo/vulnerable-woman-shares-something-with-therapist-during-therapy-session.webp?a=1&b=1&s=612x612&w=0&k=20&c=hbcsOtc-TPWlPWS7wGx1U48DUjP-B1jMibmPmTUE1so=');
+    }
+    71% {
+      background-image: url('https://media.istockphoto.com/id/1471651485/photo/millennial-black-woman-psychologist-consults-smiling-european-guy-in-modern-clinic-interior.webp?a=1&b=1&s=612x612&w=0&k=20&c=klSY2zPBvUnxdF5HSoKmI7rQuSR_Kbv_iK4TS62SA-0=');
+    }
+    85% {
+      background-image: url('https://media.istockphoto.com/id/1498049997/photo/navigating-challenges-a-therapeutic-dialogue-between-an-asian-female-psychologist-and-a.webp?a=1&b=1&s=612x612&w=0&k=20&c=97YNS1iUjDJnR186ElvA66QEMxLPdZAdzkxKLloa2pI=');
+    }
+    100% {
+      background-image: url('https://unsplash.com/photos/medical-professionals-working-U4FyCp3-KzY');
+    }
+  }
+  
+  /* Maintain existing styles for banner_info */
+  .banner_info {
+    background-color: black;
+    color: white;
+    padding: 25vh 50px 40px 50px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  /* Maintain existing styles for button */
+  .banner_info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  
+  .banner_info > button:hover {
+    background-color: white;
+    color: #ff7779;
+  }
+  
+  .banner_info > h5 {
+    margin-top: 10px;
+  }
+  
+  .banner_search {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .banner_search_button {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+  }
+  

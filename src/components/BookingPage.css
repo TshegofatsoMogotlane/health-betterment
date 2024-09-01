@@ -1,0 +1,32 @@
+.book{
+    margin: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.provice_selection{
+    color: #ff7779;
+    font-weight:800 ;
+    font-size: medium;
+    padding: 20px;
+}
+.provice_selection_sel{
+    color: #ff7779;
+    border-radius: 20px;
+}
+
+.hospital_clinic_selection{
+    flex-wrap: nowrap;
+    color: #ff7779;
+    font-weight:800 ;
+    font-size: medium;
+}
+.hospital_clinic_selection_sel{
+    color: #ff7779;
+    border-radius: 20px;
+}
+.proffessional_selection_options{
+    color: #ff7779;
+    border-radius: 40px;
+}

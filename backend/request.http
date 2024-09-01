@@ -1,0 +1,103 @@
+### Login Request
+POST http://localhost:5000/signin
+Content-Type: application/json
+
+{
+  "email": "tshegofatsom177@gmail.com",
+  "password": "jkiojviofdjvi12547"
+}
+
+###
+#
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "email": "tshegom177@gmail.com",
+  "password": "jkiojviofdjvi12547"
+}
+
+###
+#Regsiter a new user
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+  "email": "tdf@gmail.com",
+  "password": "jkiojviofdjvi12547"
+}
+
+### Get all hospitals in a specific province
+GET http://localhost:5000/hospitals?provinceId=1
+Accept: application/json
+
+###
+
+### Get psychologists in a specific hospital
+GET http://localhost:5000/psychologists?hospitalId=1
+Accept: application/json
+
+###
+
+### Get doctors in a specific hospital
+GET http://localhost:5000/doctors?hospitalId=1
+Accept: application/json
+###
+
+### Test Booking Confirmation Endpoint
+
+POST http://localhost:5000/api/bookings
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "professional": "Dr. Jane Smith",
+  "startDateTime": "2024-08-26 10:00",
+  "endDateTime": "2024-08-26 11:00"
+}
+###
+http://localhost:5000/api/listings
+
+###
+### Get all listings
+GET http://localhost:5000/api/listings
+Content-Type: application/json
+
+### Get all bookings
+GET http://localhost:5000/api/bookings
+Content-Type: application/json
+
+### Example of POST request to create a booking
+POST http://localhost:5000/api/bookings
+Content-Type: application/json
+
+{
+  "email": "tshego177@gmail.com",
+  "password": "123456",
+  "userId": "1",
+  "professional": "Dr. Jane Smith",
+  "startDateTime": "2024-08-26T10:00:00",
+  "endDateTime": "2024-08-26T11:00:00"
+}
+
+###
+# Fetch Psychologists
+GET http://localhost:5000/psychologists
+Accept: application/json
+
+---
+###
+# Fetch Doctors
+GET http://localhost:5000/doctors
+Accept: application/json
+
+###
+POST http://localhost:5000/api/confirm-booking
+Content-Type: application/application/json
+ 
+ {
+  "email":"tshegofatsom177@gmail.com",
+  "professional":"1",
+  "startDateTime":"2024-09-01 12:36",
+  "endDateTime":"2024-09-01 13:00"
+ }

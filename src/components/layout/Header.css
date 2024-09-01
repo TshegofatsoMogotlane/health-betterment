@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;  /* Corrected z-index value */
+    width: 100%;
+}
+
+.header_logo {
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.header_center {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.header_center > input {
+    border: none;
+    padding: 10px;
+    outline-width: 0;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 200;  /* Ensure it appears over other content */
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 2px 15px 20px -120px;
+}
+
+.dropdown-content span {
+    font-size: 23px;
+    color: black;
+    cursor: pointer;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content span:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show the dropdown when hovering over the parent .dropdown */
+}

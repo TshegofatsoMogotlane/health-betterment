@@ -1,0 +1,107 @@
+/* .date-time-picker {
+    position: relative; 
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+  
+.date-time-picker .date-range-picker {
+    width: 100%;
+}
+  
+.date-time-picker .info-section {
+    margin-top: 20px; 
+}
+  
+.date-time-picker .info-section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    margin: 0;
+}
+  
+.date-time-picker .info-section input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+  
+.date-time-picker .info-section input:focus {
+    outline-width: 0;
+}
+  
+.date-time-picker .info-section .btn-select {
+    margin-top: 10px;
+    background-color: #ff7779;
+    color: white;
+    width: 100%;
+    text-transform: inherit !important;
+}
+  
+.date-time-picker .info-section .btn-select:hover {
+    background-color: white;
+    color: #ff7779;
+} */
+  
+  
+.date-time-picker {
+    position: relative; /* Adjust as needed */
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+  
+.date-time-picker .date-range-picker {
+    width: 100%;
+}
+  
+.date-time-picker .time-picker-container {
+    margin-top: 20px; /* Space between the calendar and the time pickers */
+}
+  
+.date-time-picker .time-picker-container div {
+    margin-bottom: 10px; /* Space between the time pickers */
+}
+  
+.date-time-picker .info-section {
+    margin-top: 20px; /* Space between the time picker and the info section */
+}
+  
+.date-time-picker .info-section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    margin: 0;
+}
+  
+.date-time-picker .info-section input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+  
+.date-time-picker .info-section input:focus {
+    outline-width: 0;
+}
+  
+.date-time-picker .info-section .btn-select {
+    margin-top: 10px;
+    background-color: #ff7779;
+    color: white;
+    width: 100%;
+    text-transform: inherit !important;
+}
+  
+.date-time-picker .info-section .btn-select:hover {
+    background-color: white;
+    color: #ff7779;
+}
+  
